@@ -1,0 +1,59 @@
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.item
+{
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+.item-caption
+{
+    background-color: #fff;
+    position: absolute;
+    width: 80%;
+    left:10%;
+    bottom: 30px;
+    padding: 10px;
+}
+
+.item-caption p
+{
+    color: #716e6e;
+}
+
+.box-container
+{
+    background-color: rgba(0,0,0,0.55);   
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.lightbox-item
+{
+    width: 50%;
+    height: 550px;
+    background-image: url(images/portfolio-1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.lightbox-item i
+{
+    cursor: pointer;
+}
+
+#close
+{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
